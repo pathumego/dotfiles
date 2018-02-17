@@ -1,7 +1,8 @@
 ## Navigation
 #   ---------------------------------------------------------
 export PS1="\W \$ "
-
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 #   ---------------------------
 #   1.  Directory operations
 #   ---------------------------
@@ -89,7 +90,7 @@ alias gl='git log --oneline'
 alias atom='sh /Applications/Atom.app/Contents/Resources/app/atom.sh'
 alias trufontupdate='cd;cd src/github/trufont/trufont/;git pull;find . -type f -name '*.pyc' -ls -exec /bin/rm {} \;source ENV_DIR/bin/activate;  pip install .'
 alias trufontdev='cd;cd src/github/trufont/trufont/;source ENV_DIR/bin/activate;trufont'
-
+alias ot-sanitise='~/src/github/khaledhosny/ots/ots-sanitize'
 ## Misc Apps  ##
 #   ---------------------------------------------------------
 
