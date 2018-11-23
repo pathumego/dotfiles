@@ -34,6 +34,7 @@ alias DT='tee ~/Desktop/terminalOut.txt' # DT:           Pipe content to file on
 ## Recursively remove Apple meta files  ##
 #   ---------------------------------------------------------
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -exec /bin/rm {} \;"
+alias cleanpyc="find . -type f -name '*.pyc' -ls -exec /bin/rm {} \;"
 
 ##   extract:  Extract most know archives with one command ##
 #   ---------------------------------------------------------
@@ -91,6 +92,11 @@ alias atom='sh /Applications/Atom.app/Contents/Resources/app/atom.sh'
 alias trufontupdate='cd;cd src/github/trufont/trufont/;git pull;find . -type f -name '*.pyc' -ls -exec /bin/rm {} \;source ENV_DIR/bin/activate;  pip install .'
 alias trufontdev='cd;cd src/github/trufont/trufont/;source ENV_DIR/bin/activate;trufont'
 alias ot-sanitise='~/src/github/khaledhosny/ots/ots-sanitize'
+alias inkscape='~/Applications/Inkscape.app/Contents/Resources/bin/inkscape-bin'
+
+alias ytmp3='youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 -o "%(title)s.%(ext)s"'
+alias weasyprint-env='source ~/bin/weasyprint_ENV/weasy_ENV/bin/activate;'
+
 ## Misc Apps  ##
 #   ---------------------------------------------------------
 
