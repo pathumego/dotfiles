@@ -100,3 +100,9 @@ alias weasyprint-env='source ~/bin/weasyprint_ENV/weasy_ENV/bin/activate;'
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+chruby ruby-3.1.3 # run chruby to see actual version
+
+
+ export PATH="$PATH:Users/pathumego/miniconda3/bin
