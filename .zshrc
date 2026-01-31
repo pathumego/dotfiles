@@ -88,21 +88,6 @@ alias gl='git log --oneline'
 ## Misc Apps  ##
 #   ---------------------------------------------------------
 
-alias atom='sh /Applications/Atom.app/Contents/Resources/app/atom.sh'
 alias ot-sanitise='~/src/github/khaledhosny/ots/ots-sanitize'
-alias inkscape='~/Applications/Inkscape.app/Contents/Resources/bin/inkscape-bin'
 alias ytmp3='youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 -o "%(title)s.%(ext)s"'
-alias weasyprint-env='source ~/bin/weasyprint_ENV/weasy_ENV/bin/activate;'
 
-## Misc Apps  ##
-#   ---------------------------------------------------------
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.1.3 # run chruby to see actual version
-
-
- export PATH="$PATH:Users/pathumego/miniconda3/bin
